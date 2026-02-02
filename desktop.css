@@ -1,0 +1,73 @@
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .header-container {
+    padding: 24px auto;
+    align-items: center;
+    gap: 76px;
+  }
+  .header-content {
+    display: flex;
+
+    gap: 332px;
+  }
+  .address-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  .tel,
+  .mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .nav-link.current::after {
+    bottom: -20px;
+  }
+  .hero-container {
+    gap: 48px;
+    padding: 188px 0;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(15, 10, 55, 0.65),
+        rgba(15, 10, 55, 0.65)
+      ),
+      url(./images/people-office.png);
+  }
+  .sec-1-svg-background {
+    display: flex;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+  }
+  .section-1 {
+    gap: 24px;
+  }
+  .sec-2-list {
+    gap: 24px;
+  }
+  .sec1,
+  .sec-2 {
+    max-width: 264px;
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .sec-3-list {
+    row-gap: 48px;
+  }
+  .portfolio {
+    flex-basis: calc((100% - 48px) / 3);
+    max-width: 360px;
+  }
+  .footer-container {
+    max-width: 1440px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 100px 159px 100px 156px;
+  }
+}
